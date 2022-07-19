@@ -1,2 +1,2 @@
-## Welcome to crisprVerse, our Bioconductor ecosystem for CRISPR gRNA design
+## Welcome to crisprVerse, a collection of R packages for CRISPR gRNA design
 
