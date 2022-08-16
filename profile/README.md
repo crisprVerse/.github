@@ -13,3 +13,4 @@
 |crisprViz|*Next release*|*Under review*|
 |crisprVerse|*Next release*|*Under review*|
 |Rbwa|[![Release OK](https://bioconductor.org/shields/build/release/bioc/Rbwa.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/Rbwa/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/Rbwa.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/Rbwa/)|
+
