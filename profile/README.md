@@ -1,4 +1,4 @@
-![alt text](figs/header.jpg)
+![alt text](https://github.com/crisprVerse/.github/blob/main/profile/figs/header.jpg)
 
 # Welcome to the crisprVerse, a Bioconductor ecosystem for designing CRISPR gRNAs
 
