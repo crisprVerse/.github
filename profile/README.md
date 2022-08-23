@@ -1,10 +1,50 @@
-## Welcome to crisprVerse, a collection of R packages for CRISPR gRNA design
+# Welcome to the crisprVerse, a Bioconductor ecosystem for designing CRISPR gRNAs
+
+Maintainers: Luke Hoberecht, Jean-Philippe Fortin
+
+Contributors: Aaron Lun, Pirunthan Perampalam
+
+## Installation 
+
+This crisprVerse ecosystem is supported for macOS, Linux and Windows machines.
+It was developed and tested on R version 4.2.
 
 
 
+### Core packages
+
+To install the core crisprVerse packages from Bioconductor, simply enter the following commands in a fresh R session:
+
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+    
+BiocManager::install(version='devel') # To make sure this is using the devel branch of Bioconductor
+BiocManager::install("crisprVerse")
+```
+
+Installing the package `crisprVerse` effectively installs all of the core packgages of the crisprVerse ecosystem.
+
+### Optional packages
+
+The optional data package `crisprDesignData` can be installed from GitHub using the following commands:
+
+```r
+if (!requireNamespace("devtools", quietly = TRUE))
+    install.packages("devtools")
+    
+devtools::install_github("crisprVerse/crisprDesignData")
+```
 
 
-# Packages in the crisprVerse
+
+## Tutorials
+
+A comprehensive list of tutorials can be found [here](https://github.com/crisprVerse/Tutorials). 
+Tutorials are often updated to take into account the latest functionalities and changes of the ecosystem. 
+
+
+## Packages in the crisprVerse
 
 ### Bioconductor packages
 
@@ -27,4 +67,23 @@
 |[crisprDesignData](https://github.com/crisprVerse/crisprDesignData)||Useful data for the crisprVerse ecosystem|
 
 
+## Citation
 
+If using our software, please cite our bioRxiv preprint[A comprehensive Bioconductor ecosystem for the design of CRISPR guide RNAs across nucleases and technologies](https://www.biorxiv.org/content/10.1101/2022.04.21.488824v2). Here's a bibtex citation:
+
+```
+@article{Hoberecht2022,
+	author = {Hoberecht, Luke and Perampalam, Pirunthan and Lun, Aaron and Fortin, Jean-Philippe},
+	title = {A comprehensive Bioconductor ecosystem for the design of CRISPR guide RNAs across nucleases and technologies},
+	year = {2022},
+	doi = {10.1101/2022.04.21.488824},
+	URL = {https://www.biorxiv.org/content/early/2022/04/28/2022.04.21.488824},
+	eprint = {https://www.biorxiv.org/content/early/2022/04/28/2022.04.21.488824.full.pdf},
+	journal = {bioRxiv}
+}
+
+```
+
+## License
+
+The ecosystem is released under the MIT license. Genentech owns the copyright. 
