@@ -1,3 +1,5 @@
+![alt text](figs/header.jpg)
+
 # Welcome to the crisprVerse, a Bioconductor ecosystem for designing CRISPR gRNAs
 
 Maintainers: Luke Hoberecht, Jean-Philippe Fortin
