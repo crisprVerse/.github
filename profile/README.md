@@ -13,7 +13,8 @@ It was developed and tested on R version 4.2.
 
 ### Core packages
 
-To install the core crisprVerse packages from Bioconductor, simply enter the following commands in a fresh R session:
+Installing the package `crisprVerse` effectively installs all of the core packgages of the crisprVerse ecosystem.
+To install `crisprVerse` from Bioconductor, simply enter the following commands in a fresh R session:
 
 ```r
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -23,7 +24,6 @@ BiocManager::install(version='devel') # To make sure this is using the devel bra
 BiocManager::install("crisprVerse")
 ```
 
-Installing the package `crisprVerse` effectively installs all of the core packgages of the crisprVerse ecosystem.
 
 ### Optional packages
 
