@@ -5,6 +5,9 @@
 
 
 # Packages in the crisprVerse
+
+### Bioconductor packages
+
 |Package|BioC-release|BioC-devel|Description
 |---|---|---|---|
 |[crisprVerse](https://github.com/crisprVerse/crisprVerse)|*Next release*|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprVerse.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprVerse/)|Easily install of the crisprVerse ecosystem|
@@ -16,5 +19,12 @@
 |[crisprScoreData](https://github.com/crisprVerse/crisprScoreData)|[![Release OK](https://bioconductor.org/shields/build/release/data-experiment/crisprScoreData.svg)](http://bioconductor.org/checkResults/release/data-experiment-LATEST/crisprScoreData/)|[![Devel OK](https://bioconductor.org/shields/build/devel/data-experiment/crisprScoreData.svg)](http://bioconductor.org/checkResults/devel/data-experiment-LATEST/crisprScoreData/)|Pre-trained models for the crisprScore package|
 |[Rbwa](https://github.com/crisprVerse/Rbwa)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/Rbwa.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/Rbwa/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/Rbwa.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/Rbwa/)|R wrapper for BWA-backtrack and BWA-MEM aligners|
 |[crisprViz](https://github.com/crisprVerse/crisprViz)|*Next release*|*Under review*|Visualization of CRISPR gRNAs using genomic tracks |
+
+### GitHub packages
+
+|Package|BioC-release|BioC-devel|Description
+|---|---|---|---|
+|[crisprDesignData](https://github.com/crisprVerse/crisprDesignData)||||Useful data for the crisprVerse ecosystem|
+
 
 
