@@ -22,9 +22,9 @@
 
 ### GitHub packages
 
-|Package|BioC-release|BioC-devel|Description
-|---|---|---|---|
-|[crisprDesignData](https://github.com/crisprVerse/crisprDesignData)||||Useful data for the crisprVerse ecosystem|
+|Package|Devel|Description
+|---|---|---|
+|[crisprDesignData](https://github.com/crisprVerse/crisprDesignData)||Useful data for the crisprVerse ecosystem|
 
 
 
