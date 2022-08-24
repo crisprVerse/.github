@@ -3,11 +3,13 @@
 
 # Welcome to the crisprVerse, a Bioconductor ecosystem for designing CRISPR gRNAs
 
-The crisprVerse is a Bioconductor ecosystem of R packages that enables efficient gRNA design and annotation for a multitude of CRISPR technologies, including CRISPR knockout (CRISPRko), CRISPR activation (CRISPRa), CRISPR interference (CRISPRi) and CRISPR base editing (CRISPRbe). The core package, crisprDesign, offers a comprehensive, user-friendly, and unified interface to add on- and off-target annotations via several alignment methods, rich gene and SNP annotations, and a dozen on- and off-target activity scores. These functionalities are enabled for any RNA- or DNA-targeting nucleases, including Cas9, Cas12, and Cas13.
+The crisprVerse is a Bioconductor ecosystem of R packages that enables efficient gRNA design and annotation for a multitude of CRISPR technologies, including CRISPR knockout (CRISPRko), CRISPR activation (CRISPRa), CRISPR interference (CRISPRi), CRISPR base editing (CRISPRbe), and CRISPR knockdown (CRISPRkd). The core package, crisprDesign, offers a comprehensive, user-friendly, and unified interface to add on- and off-target annotations via several alignment methods, rich gene and SNP annotations, and a dozen on- and off-target activity scores. These functionalities are enabled for any RNA- or DNA-targeting nucleases, including Cas9, Cas12, and Cas13. Both single and paired gRNA designs are enabled. 
 
+For an overview of the ecosystem functionalities, see the [crisprDesign page](https://github.com/crisprVerse/crisprDesign).
 
+Project lead: Jean-Philippe Fortin
 
-Maintainers: Luke Hoberecht, Jean-Philippe Fortin
+Maintainers: Luke Hoberecht, Jean-Philippe Fortin,
 
 Contributors: Aaron Lun, Pirunthan Perampalam
 
