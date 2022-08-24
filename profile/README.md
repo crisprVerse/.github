@@ -71,7 +71,7 @@ Tutorials are often updated to take into account the latest functionalities and 
 
 |Package|Devel|Description
 |---|---|---|
-|[crisprDesignData](https://github.com/crisprVerse/crisprDesignData)||Useful data for the crisprVerse ecosystem|
+|[crisprDesignData](https://github.com/crisprVerse/crisprDesignData)|[![R-CMD-check](https://github.com/crisprVerse/crisprDesignData/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/crisprVerse/crisprDesignData/actions/workflows/check-standard.yaml)|Useful data for the crisprVerse ecosystem|
 
 
 ## Citation
