@@ -15,21 +15,43 @@ For detailed examples, see our [tutorials](https://github.com/crisprVerse/Tutori
 
 ## Installation 
 
-This crisprVerse ecosystem is supported for macOS, Linux and Windows machines.
-It was developed and tested on R version 4.2.
+### Requirements
+
+The crisprVerse is supported for macOS, Linux and Windows machines.
+It requires R version >=4.2.1. Some of the third-party functionalities are not
+available for Windows machines (BWA alignment, and some of the scoring 
+functions). To download and install R, see 
+the [R-project website](https://www.r-project.org/).
+
+### Bioconductor versions
+
+The Bioconductor project has 2 concurrent versions: `release` and `devel`.
+Currently (August 2022), the release version is`3.15`, and the
+devel version is `3.16`. Release versions are created twice a year.
+
+The current version of the crisprVerse was developed on the devel version
+of Bioconductor (`3.16`) to make sure it accesses all of the latest 
+developments. Earlier versions of some of our packages are available 
+on the release version, but we do not recommend using the release version
+as most of the functionalities described in the tutorials require
+devel functionalities.
+
+See the [Bioconductor install page](https://www.bioconductor.org/install/) for
+more information re. Bioconductor. 
 
 
+### Installing the core crisprVerse packages
 
-### Core packages
+The [crisprVerse package](https://github.com/crisprVerse/crisprVerse) installs
+the core crisprVerse packages in a single command from Bioconductor. Simply
+type in the following commands in an R session:
 
-Installing the package `crisprVerse` effectively installs all of the core packgages of the crisprVerse ecosystem.
-To install `crisprVerse` from Bioconductor, simply enter the following commands in a fresh R session:
 
-```r
+```{r, eval=FALSE}
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-    
-BiocManager::install(version='devel') # To make sure this is using the devel branch of Bioconductor
+
+BiocManager::install(version="devel")
 BiocManager::install("crisprVerse")
 ```
 
@@ -45,6 +67,17 @@ if (!requireNamespace("devtools", quietly = TRUE))
 devtools::install_github("crisprVerse/crisprDesignData")
 ```
 
+For maxOS and Linux users, the 
+[crisprBwa](https://github.com/crisprVerse/crisprBwa) can be installed
+from Bioconductor using the following:
+
+```{r, eval=FALSE}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install(version="devel")
+BiocManager::install("crisprBwa")
+```
 
 
 ## Tutorials
