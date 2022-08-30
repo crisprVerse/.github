@@ -82,7 +82,7 @@ BiocManager::install("crisprBwa")
 ## Docker images
 
 We are providing ready-to-use Docker images that can be downloaded from the [Docker hub](https://hub.docker.com/r/fortin946/crisprverse).
-See our [Container page](https://github.com/crisprVerse/Container) for more information. 
+See our [Docker page](https://github.com/crisprVerse/Docker) for more information. 
 
 ## Tutorials
 
