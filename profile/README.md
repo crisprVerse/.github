@@ -25,29 +25,25 @@ the [R-project website](https://www.r-project.org/).
 
 ### Bioconductor versions
 
-The Bioconductor project has 2 concurrent versions: `release` and `devel`.
-Currently (August 2022), the release version is`3.15`, and the
-devel version is `3.16`. Release versions are created twice a year.
+The Bioconductor project has 2 concurrent branches: `release` and
+`devel`. Currently (August 2022), the release branch is `3.15`, and the
+devel branch is `3.16`. Release versions are created twice a year. See
+the [Bioconductor install page](https://www.bioconductor.org/install/)
+for more information regarding Bioconductor versions.
 
-The current version of the crisprVerse was developed on the devel version
-of Bioconductor (`3.16`) to make sure it accesses all of the latest 
-developments. Earlier versions of some of our packages are available 
-on the release version, but we do not recommend using the release version
-as most of the functionalities described in the tutorials require
-devel functionalities.
-
-See the [Bioconductor install page](https://www.bioconductor.org/install/) for
-more information re. Bioconductor. 
+The crisprVerse ecosystem is currently available on the Bioconductor
+devel branch (`3.16`). Earlier versions of some of our packages are
+available on the release branch, but we do not recommend using the
+release branch as most of the functionalities described in the tutorials
+require updated functionalities only available on the devel branch.
 
 
 ### Installing the core crisprVerse packages
 
-The [crisprVerse package](https://github.com/crisprVerse/crisprVerse) installs
-the core crisprVerse packages in a single command from Bioconductor. Simply
-type in the following commands in an R session:
+Type in the following commands in an R session to install the core
+crisprVerse packages from the Bioconductor devel branch:
 
-
-```{r, eval=FALSE}
+``` r
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
@@ -78,6 +74,19 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install(version="devel")
 BiocManager::install("crisprBwa")
 ```
+
+
+The [crisprViz](https://github.com/crisprVerse/crisprViz) package is
+currently under review at Bioconductor, but can be installed directly
+from GitHub:
+
+``` r
+if (!requireNamespace("devtools", quietly = TRUE))
+    install.packages("devtools")
+
+devtools::install.packages("crisprVerse/crisprViz")
+```
+
 
 ## Docker images
 
