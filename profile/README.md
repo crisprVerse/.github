@@ -141,4 +141,4 @@ If using our software, please cite our bioRxiv preprint[A comprehensive Biocondu
 
 ## License
 
-The ecosystem is released under the MIT license. Genentech owns the copyright. 
+The ecosystem is released under the MIT license. Genentech Inc. owns the copyright. 
