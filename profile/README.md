@@ -26,17 +26,10 @@ the [R-project website](https://www.r-project.org/).
 ### Bioconductor versions
 
 The Bioconductor project has 2 concurrent branches: `release` and
-`devel`. Currently (August 2022), the release branch is `3.15`, and the
-devel branch is `3.16`. Release versions are created twice a year. See
+`devel`. Currently (November 2022), the release branch is `3.16`, and the
+devel branch is `3.17`. Release versions are created twice a year. See
 the [Bioconductor install page](https://www.bioconductor.org/install/)
 for more information regarding Bioconductor versions.
-
-The crisprVerse ecosystem is currently available on the Bioconductor
-devel branch (`3.16`). Earlier versions of some of our packages are
-available on the release branch, but we do not recommend using the
-release branch as most of the functionalities described in the tutorials
-require updated functionalities only available on the devel branch.
-
 
 ### Installing the core crisprVerse packages
 
@@ -47,7 +40,7 @@ crisprVerse packages from the Bioconductor devel branch:
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
-BiocManager::install(version="devel")
+#BiocManager::install(version="devel") To use the devel branch instead
 BiocManager::install("crisprVerse")
 ```
 
@@ -71,21 +64,11 @@ from Bioconductor using the following:
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
-BiocManager::install(version="devel")
+#BiocManager::install(version="devel") To use the devel branch instead
 BiocManager::install("crisprBwa")
 ```
 
 
-The [crisprViz](https://github.com/crisprVerse/crisprViz) package is
-currently under review at Bioconductor, but can be installed directly
-from GitHub:
-
-``` r
-if (!requireNamespace("devtools", quietly = TRUE))
-    install.packages("devtools")
-
-devtools::install.packages("crisprVerse/crisprViz")
-```
 
 
 ## Docker images
@@ -105,15 +88,15 @@ Tutorials are often updated to take into account the latest functionalities and 
 
 |Package|BioC-release|BioC-devel|Description
 |---|---|---|---|
-|[crisprVerse](https://github.com/crisprVerse/crisprVerse)|*Next release*|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprVerse.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprVerse/)|Easily install of the crisprVerse ecosystem|
-|[crisprDesign](https://github.com/crisprVerse/crisprDesign)|*Next release*|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprDesign.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprDesign/)|Core gRNA design package across nucleases and applications|
+|[crisprVerse](https://github.com/crisprVerse/crisprVerse)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/crisprVerse.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/crisprVerse/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprVerse.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprVerse/)|Easily install of the crisprVerse ecosystem|
+|[crisprDesign](https://github.com/crisprVerse/crisprDesign)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/crisprDesign.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/crisprDesign/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprDesign.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprDesign/)|Core gRNA design package across nucleases and applications|
 |[crisprBase](https://github.com/crisprVerse/crisprBase)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/crisprBase.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/crisprBase/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprBase.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprBase/)|Base functions and classes for CRISPR gRNA design|
 |[crisprBowtie](https://github.com/crisprVerse/crisprBowtie)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/crisprBowtie.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/crisprBowtie/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprBowtie.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprBowtie/)|Alignment of gRNA spacer sequences using bowtie|
 |[crisprBwa](https://github.com/crisprVerse/crisprBwa)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/crisprBwa.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/crisprBwa/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprBwa.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprBwa/)|Alignment of gRNA spacer sequences using BWA|
 |[crisprScore](https://github.com/crisprVerse/crisprScore)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/crisprScore.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/crisprScore/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprScore.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprScore/)|On-target and off-target scoring for CRISPR gRNAs|
 |[crisprScoreData](https://github.com/crisprVerse/crisprScoreData)|[![Release OK](https://bioconductor.org/shields/build/release/data-experiment/crisprScoreData.svg)](http://bioconductor.org/checkResults/release/data-experiment-LATEST/crisprScoreData/)|[![Devel OK](https://bioconductor.org/shields/build/devel/data-experiment/crisprScoreData.svg)](http://bioconductor.org/checkResults/devel/data-experiment-LATEST/crisprScoreData/)|Pre-trained models for the crisprScore package|
 |[Rbwa](https://github.com/crisprVerse/Rbwa)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/Rbwa.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/Rbwa/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/Rbwa.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/Rbwa/)|R wrapper for BWA-backtrack and BWA-MEM aligners|
-|[crisprViz](https://github.com/crisprVerse/crisprViz)|*Next release*|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprViz.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprViz/)|Visualization of CRISPR gRNAs using genomic tracks |
+|[crisprViz](https://github.com/crisprVerse/crisprViz)|[![Release OK](https://bioconductor.org/shields/build/release/bioc/crisprViz.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/crisprViz/)|[![Devel OK](https://bioconductor.org/shields/build/devel/bioc/crisprViz.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/crisprViz/)|Visualization of CRISPR gRNAs using genomic tracks |
 
 
 ### GitHub packages
