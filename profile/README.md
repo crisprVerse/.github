@@ -18,7 +18,8 @@ For detailed examples, see our [tutorials](https://github.com/crisprVerse/Tutori
 ### Requirements
 
 The crisprVerse is supported for macOS, Linux and Windows machines.
-It requires R version >=4.2.1. Some of the third-party functionalities are not
+It requires R version >=4.2.1 for release, and R version >=4.3 for devel.
+Some of the third-party functionalities are not
 available for Windows machines (BWA alignment, and some of the scoring 
 functions). To download and install R, see 
 the [R-project website](https://www.r-project.org/).
@@ -27,7 +28,8 @@ the [R-project website](https://www.r-project.org/).
 
 The Bioconductor project has 2 concurrent branches: `release` and
 `devel`. Currently (November 2022), the release branch is `3.16`, and the
-devel branch is `3.17`. Release versions are created twice a year. See
+devel branch is `3.17`. The release branch requires R version 4.2 or higher, and the devel branch requires R version 4.3 or higher.
+Release versions are created twice a year. See
 the [Bioconductor install page](https://www.bioconductor.org/install/)
 for more information regarding Bioconductor versions.
 
