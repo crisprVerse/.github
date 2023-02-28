@@ -110,17 +110,18 @@ Tutorials are often updated to take into account the latest functionalities and 
 
 ## Citation
 
-If using our software, please cite our bioRxiv preprint[A comprehensive Bioconductor ecosystem for the design of CRISPR guide RNAs across nucleases and technologies](https://www.biorxiv.org/content/10.1101/2022.04.21.488824v2). Here's a bibtex citation:
+If using our software, please cite our Nature Communications paper [A comprehensive Bioconductor ecosystem for the design of CRISPR guide RNAs across nucleases and technologies](https://www.nature.com/articles/s41467-022-34320-7). Here's a bibtex citation:
 
 ```
-@article{Hoberecht2022,
-	author = {Hoberecht, Luke and Perampalam, Pirunthan and Lun, Aaron and Fortin, Jean-Philippe},
-	title = {A comprehensive Bioconductor ecosystem for the design of CRISPR guide RNAs across nucleases and technologies},
-	year = {2022},
-	doi = {10.1101/2022.04.21.488824},
-	URL = {https://www.biorxiv.org/content/early/2022/04/28/2022.04.21.488824},
-	eprint = {https://www.biorxiv.org/content/early/2022/04/28/2022.04.21.488824.full.pdf},
-	journal = {bioRxiv}
+@article{hoberecht2022comprehensive,
+  title={A comprehensive Bioconductor ecosystem for the design of CRISPR guide RNAs across nucleases and technologies},
+  author={Hoberecht, Luke and Perampalam, Pirunthan and Lun, Aaron and Fortin, Jean-Philippe},
+  journal={Nature Communications},
+  volume={13},
+  number={1},
+  pages={6568},
+  year={2022},
+  publisher={Nature Publishing Group UK London}
 }
 
 ```
