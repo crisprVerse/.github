@@ -3,7 +3,7 @@
 
 # Welcome to the crisprVerse, a Bioconductor ecosystem for designing CRISPR gRNAs
 
-The crisprVerse is a Bioconductor ecosystem of R packages that enables efficient gRNA design and annotation for a multitude of CRISPR technologies, including CRISPR knockout (CRISPRko), CRISPR activation (CRISPRa), CRISPR interference (CRISPRi), CRISPR base editing (CRISPRbe), and CRISPR knockdown (CRISPRkd). The core package, crisprDesign, offers a comprehensive, user-friendly, and unified interface to add on- and off-target annotations via several alignment methods, rich gene and SNP annotations, and a dozen on- and off-target activity scores. These functionalities are enabled for any RNA- or DNA-targeting nucleases, including Cas9, Cas12, and Cas13. Both single and paired gRNA designs are enabled. 
+The crisprVerse is a Bioconductor ecosystem of R packages that enables efficient gRNA design and annotation for a multitude of CRISPR technologies, including CRISPR knockout (CRISPRko), CRISPR activation (CRISPRa), CRISPR interference (CRISPRi), CRISPR base editing (CRISPRbe), and CRISPR knockdown (CRISPRkd). The core package, crisprDesign, offers a comprehensive, user-friendly, and unified interface to add on- and off-target annotations via several alignment methods, rich gene and SNP annotations, and a dozen on- and off-target activity scores. These functionalities are enabled for any RNA- or DNA-targeting nucleases, including Cas9, Cas12, Cas13, and Csm. Both single and paired gRNA designs are enabled. 
 
 For an overview of the ecosystem functionalities, see the [crisprDesign page](https://github.com/crisprVerse/crisprDesign).
 For detailed examples, see our [tutorials](https://github.com/crisprVerse/Tutorials).
@@ -18,7 +18,7 @@ For detailed examples, see our [tutorials](https://github.com/crisprVerse/Tutori
 ### Requirements
 
 The crisprVerse is supported for macOS, Linux and Windows machines.
-It requires R version >=4.2.1 for release, and R version >=4.3 for devel.
+It requires R version >=4.4.
 Some of the third-party functionalities are not
 available for Windows machines (BWA alignment, and some of the scoring 
 functions). To download and install R, see 
@@ -26,25 +26,37 @@ the [R-project website](https://www.r-project.org/).
 
 ### Bioconductor versions
 
-The Bioconductor project has 2 concurrent branches: `release` and
-`devel`. Currently (November 2022), the release branch is `3.16`, and the
-devel branch is `3.17`. The release branch requires R version 4.2 or higher, and the devel branch requires R version 4.3 or higher.
+The crisprVerse is embedded within the Bioconductor ecosystem,
+therefore has 2 concurrent branches: `release` and
+`devel`. Currently (July 2024), the release branch is `3.19`, and the
+devel branch is `3.20`. Both branches requires R version 4.4 or higher. 
 Release versions are created twice a year. See
 the [Bioconductor install page](https://www.bioconductor.org/install/)
-for more information regarding Bioconductor versions.
+for more information regarding Bioconductor versions and to get an overview of how to install packages. 
 
 ### Installing the core crisprVerse packages
 
-Type in the following commands in an R session to install the core
-crisprVerse packages from the Bioconductor devel branch:
+To install the packages from the release branch, type in the following commands in an R session:
 
 ``` r
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
-#BiocManager::install(version="devel") To use the devel branch instead
+BiocManager::install(version="release") 
 BiocManager::install("crisprVerse")
 ```
+
+To install the packages from the development branch, which is up to date with the lastest pushes 
+to the GitHub repos, type in the following commands in an R session:
+
+``` r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install(version="devel") 
+BiocManager::install("crisprVerse")
+```
+
 
 
 ### Optional packages
@@ -66,7 +78,6 @@ from Bioconductor using the following:
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
-#BiocManager::install(version="devel") To use the devel branch instead
 BiocManager::install("crisprBwa")
 ```
 
