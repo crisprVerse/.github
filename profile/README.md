@@ -23,6 +23,23 @@ The following open-source projects directly incorporate components of the crispr
 - [Digenome Detect](https://github.com/nihsmtgt/Digenome-Detect) — Digenome-seq analysis tool
 - [snakemake-crispr-guides](https://github.com/MPUSP/snakemake-crispr-guides) — Guide design workflow developed by the Max Planck Unit for the Science of Pathogens.
 
+### Selected Publications
+
+- Template-driven scaffolding of SCF-FBXO42 regulates PP2A degradation ([Nature](https://www.nature.com/articles/s41586-026-10368-z))
+- Multiplexed, image-based pooled screens in primary cells and tissues with PerturbView ([Nature Biotechnology](https://www.nature.com/articles/s41587-024-02391-0))
+- Engineered CRISPR-Cas12a for higher-order combinatorial chromatin perturbations ([Nature Biotechnology](https://www.nature.com/articles/s41587-024-02224-0))
+- Microglia-mediated protection against Alzheimer's disease pathology and detrimental effects in white matter revealed by Ptpn6 deletion ([Neuron](https://www.cell.com/neuron/abstract/S0896-6273(26)00128-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627326001285%3Fshowall%3Dtrue))
+- BRM/BRG1 degraders acting via the recruitment of FBXO22 ([Nature Communications](https://www.nature.com/articles/s41467-025-64669-4))
+- A CRISPR/Cas9 screen reveals proteins at the endosome-Golgi interface that modulate cellular anti-sense oligonucleotide activity ([Nature Communications](https://www.nature.com/articles/s41467-025-61039-y))
+- Inhibition of GPX4 enhances CDK4/6 inhibitor and endocrine therapy activity in breast cancer ([Nature Communications](https://www.nature.com/articles/s41467-024-53837-7))
+- Advancing the genetic engineering toolbox by combining AsCas12a knock-in mice with ultra-compact screening ([Nature Communications](https://www.nature.com/articles/s41467-025-56282-2))
+- Accelerated drug-resistant variant discovery with an enhanced, scalable mutagenic base editor platform ([Cell Reports](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00641-7))
+- CRISPR activation screens identify the SWI/SNF ATPases as suppressors of ferroptosis ([Cell Reports](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00673-9))
+- Seed sequences mediate off-target activity in the CRISPR-interference system ([Cell Genomics](https://www.cell.com/cell-genomics/fulltext/S2666-979X(24)00322-7))
+- An unbiased whole-genome open reading frame overexpression screen identifies B3GALT2, a novel inducer of cellular ASO activity ([Molecular Therapy Nucleid Acids](https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531(25)00320-8))
+- Scalable multimodal mapping of macrophage regulatory architecture by integrating optical and transcriptomic pooled screens ([bioRxiv](https://www.biorxiv.org/content/10.64898/2026.05.27.728345v1))
+- A novel, high-density CRISPR activation platform for mapping cancer dependencies and resistance pathways ex vivo and in vivo ([bioRxiv](https://www.biorxiv.org/content/10.1101/2025.07.22.666069v1))
+
 ## Installation 
 
 ### Requirements
