@@ -29,7 +29,7 @@ The following open-source projects directly incorporate components of the crispr
 - Multiplexed, image-based pooled screens in primary cells and tissues with PerturbView ([Nature Biotechnology](https://www.nature.com/articles/s41587-024-02391-0))
 - Engineered CRISPR-Cas12a for higher-order combinatorial chromatin perturbations ([Nature Biotechnology](https://www.nature.com/articles/s41587-024-02224-0))
 - Microglia-mediated protection against Alzheimer's disease pathology and detrimental effects in white matter revealed by Ptpn6 deletion ([Neuron](https://www.cell.com/neuron/abstract/S0896-6273(26)00128-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627326001285%3Fshowall%3Dtrue))
-- BRM/BRG1 degraders acting via the recruitment of FBXO22 ([Nature Communications](https://www.nature.com/articles/s41467-025-64669-4))
+- Rational design of potent small-molecule SMARCA2/A4 degraders acting via the recruitment of FBXO22 ([Nature Communications](https://www.nature.com/articles/s41467-025-64669-4))
 - A CRISPR/Cas9 screen reveals proteins at the endosome-Golgi interface that modulate cellular anti-sense oligonucleotide activity ([Nature Communications](https://www.nature.com/articles/s41467-025-61039-y))
 - Inhibition of GPX4 enhances CDK4/6 inhibitor and endocrine therapy activity in breast cancer ([Nature Communications](https://www.nature.com/articles/s41467-024-53837-7))
 - Advancing the genetic engineering toolbox by combining AsCas12a knock-in mice with ultra-compact screening ([Nature Communications](https://www.nature.com/articles/s41467-025-56282-2))
