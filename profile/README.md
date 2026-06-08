@@ -11,6 +11,18 @@ For detailed examples, see our [tutorials](https://github.com/crisprVerse/Tutori
 - Maintainers: Luke Hoberecht, Jean-Philippe Fortin
 - Contributors: Aaron Lun, Pirunthan Perampalam
 
+## Software Adoption and Impact
+
+The following open-source projects directly incorporate components of the crisprVerse ecosystem:
+
+- [CRISPRware](https://github.com/ericmalekos/crisprware) — Context-aware gRNA library design platform.
+- [CRISPR-BEasy](https://github.com/CERC-Genomic-Medicine/CRISPR-BEasy) — Web platform for designing sgRNA tiling libraries for CRISPR base-editing screens.
+- [PrEditR](https://github.com/fvasquezcastro/preditr/tree/main) — Analysis framework for prime-editing experiments.  
+- [crisprCHOPOFF](https://github.com/JokingHero/crisprCHOPOFF) — R wrapper for CHOPOFF, a CRISPR OFF target search algorithm
+- [HemTools](https://github.com/YichaoOU/HemTools) — A collection of NGS pipelines and bioinformatic analyses
+- [Digenome Detect](https://github.com/nihsmtgt/Digenome-Detect) — Digenome-seq analysis tool
+- [snakemake-crispr-guides](https://github.com/MPUSP/snakemake-crispr-guides) — Guide design workflow developed by the Max Planck Unit for the Science of Pathogens.
+
 ## Installation 
 
 ### Requirements
